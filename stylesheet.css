@@ -4,12 +4,15 @@ html {
 }
 
 body {
+	text-align: center;
 	color: #444444;
 }
 
 div {
 	border-radius: 5px;
 	border-color: #444444;
+	width: 50%;
+	height: 70%;
 }
 
 h1 {
