@@ -1,7 +1,12 @@
 /* Comment */
-body{
-	color: #bdbdbd
+html {
+	background-color: #EEEEEE
 }
+
+body {
+	color: #444444;
+}
+
 h1 {
 	font-family: Arial;
 }
