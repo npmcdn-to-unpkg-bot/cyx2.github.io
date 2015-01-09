@@ -40,6 +40,10 @@ footer {
 	display: block;
 }
 
+.footerItem {
+	display: inline-block;
+}
+
 #headerText {
 	font-weight: bold;
 }
