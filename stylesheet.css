@@ -31,14 +31,14 @@ body {
 
 .roleEmployer {
 	font-size: 24px;
-	margin-top: 0px;
-	margin-bottom: 0px;
+	margin-top: 12px;
+	margin-bottom: 12px;
 }
 
 .roleText {
 	font-size: 1em;
-	margin-top: 0px;
-	margin-bottom: 0px;
+	margin-top: 12px;
+	margin-bottom: 12px;
 }
 
 hr {
@@ -47,8 +47,8 @@ hr {
 	width: 25%;
 	border: 0;
 	border-top: 1px solid #444444;
-	margin-top: 12px;
-	margin-bottom: 12px;
+	margin-top: 33px;
+	margin-bottom: 33px;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0;
