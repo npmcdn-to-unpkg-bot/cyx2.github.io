@@ -40,6 +40,7 @@ body {
 hr {
 	display: block;
 	height: 1px;
+	width: 350px;
 	border: 0;
 	border-top: 1px solid #444444;
 	margin: 1em 0;
