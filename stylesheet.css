@@ -22,7 +22,7 @@ a{
 
 /*
 .text {
-
+I want to center stuff vertically, eventually.
 }
 */
 
@@ -44,6 +44,10 @@ footer {
 	bottom: 0;
 	left: 0;
 	display: block;
+}
+
+.footerItem {
+	display: inline;
 }
 
 #headerText {
