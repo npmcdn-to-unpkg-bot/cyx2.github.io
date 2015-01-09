@@ -1,4 +1,5 @@
 /* Copyright Charlie Xu 2015 */
+
 body {
 	text-align: center;
 	color: #444444;
@@ -16,10 +17,22 @@ body {
 	font-size: 40px;
 }
 
-.roles {
+.role {
 	position: absolute;
 	top: 25%;
 	width: 100%;
+}
+
+.roleTitle {
+	font-size: 36px;
+}
+
+.roleEmployer {
+	font-size: 24px;
+}
+
+.roleText {
+	font-size: 1em;
 }
 
 a{
