@@ -28,14 +28,6 @@ a:hover {
 	color: #F67E22;
 }
 
-a:visited {
-	color: #444444;
-}
-
-a:visited:hover {
-	color: #F67E22;
-}
-
 footer {
 	display: block;
 }
