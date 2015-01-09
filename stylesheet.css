@@ -16,3 +16,7 @@ a {
 #headerText {
 	font-weight: bold;
 }
+
+#copyright {
+	text-align: right;
+}
