@@ -2,9 +2,16 @@
 body {
 	text-align: center;
 	color: #444444;
-	background-color: #EEEEEE
+	background-color: #EEEEEE;
 }
 
+div {
+	height: auto;
+	width: auto;
+	border: 2px solid black;
+	border-radius: 5px;
+	display: block;
+}
 * {
 	font-family: Arial;
 }
@@ -18,5 +25,5 @@ a {
 }
 
 #copyright {
-	text-align: right;
+	text-align: center;
 }
