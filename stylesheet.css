@@ -20,11 +20,9 @@ a{
 	text-decoration: none;
 }
 
-/*
 .text {
-I want to center stuff vertically, eventually.
+	vertical-align: middle;
 }
-*/
 
 a:link {
 	color: #444444;
@@ -50,12 +48,11 @@ footer {
 	display: inline;
 }
 
-#headerText {
-	font-weight: bold;
-}
-
 #resume {
-	text-align: left;
+	position: absolute;
+	margin-left: 1em;
+	left: 0;
+	top: 0;
 }
 
 #email {
@@ -63,5 +60,8 @@ footer {
 }
 
 #copyright {
-	text-align: right;
+	position: absolute;
+	margin-right: 1em;
+	right: 0;
+	top: 0;
 }
