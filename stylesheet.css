@@ -45,6 +45,7 @@ footer {
 
 .footerItem {
 	display: inline;
+	margin-bottom: 1em;
 }
 
 #resume {
