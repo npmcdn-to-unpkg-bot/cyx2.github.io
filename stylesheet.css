@@ -20,11 +20,17 @@ a{
 	text-decoration: none;
 }
 
-/*
-.text {
-	vertical-align: middle;
+#headerText {
+	position: absolute;
+	top: 8%;
+	width: 100%;
 }
-*/
+
+.text {
+	position: absolute;
+	top: 25%;
+	width: 100%;
+}
 
 a:link {
 	color: #444444;
