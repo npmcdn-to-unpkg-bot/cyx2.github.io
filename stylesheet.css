@@ -1,8 +1,5 @@
-/* Comment */
+/* Copyright Charlie Xu 2015 */
 body {
-	position: absolute;
-	left: 50%;
-	top: 50%;
 	text-align: center;
 	color: #444444;
 	background-color: #EEEEEE;
@@ -23,6 +20,12 @@ a{
 	text-decoration: none;
 }
 
+.text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
 a:link {
 	color: #444444;
 }
@@ -41,10 +44,6 @@ footer {
 	bottom: 0;
 	left: 0;
 	display: block;
-}
-
-.footerItem {
-	display: inline-block;
 }
 
 #headerText {
