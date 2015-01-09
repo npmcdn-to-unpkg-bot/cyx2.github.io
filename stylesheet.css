@@ -21,7 +21,11 @@ a{
 }
 
 a:link {
-	color: #F67E22;
+	color: #444444;
+}
+
+a:visited {
+	color: #444444;
 }
 
 a:hover {
