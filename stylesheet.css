@@ -20,9 +20,11 @@ a{
 	text-decoration: none;
 }
 
+/*
 .text {
 	vertical-align: middle;
 }
+*/
 
 a:link {
 	color: #444444;
@@ -44,8 +46,7 @@ footer {
 }
 
 .footerItem {
-	display: inline;
-	margin-bottom: 1em;
+	display: inline-block;
 }
 
 #resume {
