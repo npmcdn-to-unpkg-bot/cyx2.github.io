@@ -12,14 +12,14 @@ body {
 
 #headerText {
 	position: absolute;
-	top: 8%;
+	top: 1%;
 	width: 100%;
 	font-size: 40px;
 }
 
 .role {
 	position: absolute;
-	top: 25%;
+	top: 15%;
 	width: 100%;
 }
 
