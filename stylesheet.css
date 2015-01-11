@@ -73,7 +73,7 @@ a:hover {
 
 footer {
 	width: 100%;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	left: 0;
 	clear: both;
@@ -85,7 +85,7 @@ footer {
 }
 
 #resume {
-	position: absolute;
+	position: fixed;
 	margin-left: 1em;
 	left: 0;
 	top: 0;
@@ -96,7 +96,7 @@ footer {
 }
 
 #copyright {
-	position: absolute;
+	position: fixed;
 	margin-right: 1em;
 	right: 0;
 	top: 0;
