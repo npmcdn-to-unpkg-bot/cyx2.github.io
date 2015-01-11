@@ -85,7 +85,7 @@ footer {
 }
 
 #resume {
-	position: fixed;
+	position: absolute;
 	margin-left: 1em;
 	left: 0;
 	top: 0;
@@ -96,7 +96,7 @@ footer {
 }
 
 #copyright {
-	position: fixed;
+	position: absolute;
 	margin-right: 1em;
 	right: 0;
 	top: 0;
