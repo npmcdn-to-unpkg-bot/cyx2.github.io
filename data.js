@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-dorm",
-      "name": "dorm",
+      "id": "0-room-1",
+      "name": "Room 1",
       "levels": [
         {
           "tileSize": 256,
@@ -24,15 +24,15 @@ var APP_DATA = {
       ],
       "faceSize": 1920,
       "initialViewParameters": {
-        "yaw": 0.01878139089539488,
-        "pitch": 0,
-        "fov": 1.7316886462579433
+        "yaw": -2.3737772702054585,
+        "pitch": 0.2524874104646013,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [],
       "infoHotspots": []
     }
   ],
-  "name": "Project Title",
+  "name": "DFA VR Concept",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
