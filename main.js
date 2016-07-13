@@ -14,6 +14,13 @@ $( document ).ready(function() {
     	$('#photographyButton').addClass('active');
     	$('.views').hide();
     	$('.photographyView').fadeTo('slow', 1);
+    	var $grid = $('.grid').imagesLoaded( function() {
+		  $grid.masonry({
+		    itemSelector: '.grid-item',
+		    percentPosition: true,
+		    columnWidth: '.grid-sizer'
+		  }); 
+		});
     });
     $('#aboutButton').click(function() {
     	$('.navButton').removeClass('active');
@@ -21,4 +28,5 @@ $( document ).ready(function() {
     	$('.views').hide();
     	$('.aboutView').fadeTo('slow', 1);
     });
+
 });
