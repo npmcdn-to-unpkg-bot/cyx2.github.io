@@ -27,39 +27,41 @@
   </head>
 
   <body>
-    <div class="site-wrapper">
-
-      <div class="site-wrapper-inner">
-
-        <div class="cover-container">
-
-          <div class="masthead clearfix">
-            <div class="inner">
-              <h3 class="masthead-brand">Charlie Xu</h3>
-              <nav>
-                <ul class="nav masthead-nav">
-                  <li class="active navButton" id="homeButton"><a href="#">
-                    <span class="glyphicon glyphicon-home"></span> Home</a>
-                  </li>
-                  <li class="navButton" id="photographyButton">
-                    <a href="#"><span class="glyphicon glyphicon-picture"></span> Photography</a>
-                  </li>
-                  <li class="navButton" id="aboutButton">
-                    <a href="#"><span class="glyphicon glyphicon-user"></span> About</a>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-          </div>
-
-          <div class="homeView views">
+    <div class="cover-container">
+      <div class="masthead clearfix">
+        <div class="inner">
+          <h3 class="masthead-brand">Charlie Xu</h3>
+          <nav>
+            <ul class="nav masthead-nav">
+              <li class="active navButton" id="homeButton"><a href="#">
+                <span class="glyphicon glyphicon-home"></span> Home</a>
+              </li>
+              <li class="navButton" id="photographyButton">
+                <a href="#"><span class="glyphicon glyphicon-picture"></span> Photography</a>
+              </li>
+              <li class="navButton" id="aboutButton">
+                <a href="#"><span class="glyphicon glyphicon-user"></span> About</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    
+    <!-- <div class="homeView views"> -->
+      <div class="site-wrapper homeView viewSelector">
+        <div class="site-wrapper-inner">
+          <div class="cover-container">
             <div class="inner cover">
               <h1 class="cover-heading">Hi, I'm Charlie.</h1>
               <p class="lead">I'm a consulting analyst and I like to travel, take photos, sail, scuba dive, develop websites, and write computer programs.</p>
             </div>
           </div>
+        </div>
+      </div>
+    <!-- </div>     -->
 
-          <div class="photographyView views">
+    <div class="photographyView viewSelector">
             <p>Photography</p>
             <div class="grid">
               <div class="grid-sizer"></div>
@@ -93,22 +95,9 @@
             </div>
           </div>
 
-          <div class="aboutView views">
+          <div class="aboutView viewSelector">
             <p>About</p>
           </div>
-          
-
-          <!-- <div class="mastfoot">
-            <div class="inner">
-              <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-            </div>
-          </div> -->
-
-        </div>
-
-      </div>
-
-    </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

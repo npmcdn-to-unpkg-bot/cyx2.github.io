@@ -58,7 +58,7 @@ body {
 .grid-sizer,
 .grid-item {
   width: 33.333%;
-  padding-top: 5px;
+  padding: 5px;
 }
 
 .grid-item {
@@ -186,6 +186,9 @@ body {
   .mastfoot,
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+  .photographyView, .aboutView {
+    padding-top: 100px;
   }
 }
 
