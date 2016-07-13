@@ -35,6 +35,18 @@ body {
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
+.home {
+  display: none;
+}
+
+.photography {
+  display: none;
+}
+
+.about {
+  display: none;
+}
+
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
