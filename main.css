@@ -1,15 +1,10 @@
-/*
- * Globals
- */
 
-/* Links */
 a,
 a:focus,
 a:hover {
   color: #fff;
 }
 
-/* Custom default button */
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
@@ -46,14 +41,10 @@ body {
 .grid {
 }
 
-/* clear fix */
 .grid:after {
   content: '';
   display: block;
-  /*clear: both;*/
 }
-
-/* ---- .grid-item ---- */
 
 .grid-sizer,
 .grid-item {
@@ -77,7 +68,6 @@ body {
 .photographyView {
 }
 
-/* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
   width: 100%;
@@ -91,15 +81,9 @@ body {
   margin-left: auto;
 }
 
-/* Padding for spacing */
 .inner {
   padding: 30px;
 }
-
-
-/*
- * Header
- */
 
 .masthead-brand {
   margin-top: 10px;
@@ -140,11 +124,6 @@ body {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-
-/*
- * Cover
- */
-
 .cover {
   padding: 0 20px;
 }
@@ -153,20 +132,10 @@ body {
   font-weight: bold;
 }
 
-
-/*
- * Footer
- */
-
 .mastfoot {
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
 }
-
-
-/*
- * Affix and center
- */
 
 @media (min-width: 768px) {
   .site-wrapper {
@@ -179,7 +148,7 @@ body {
   .masthead-nav {
     float: right;
   }
-  /* Pull out the header and footer */
+
   .masthead {
     position: absolute;
     top: 0;
@@ -191,11 +160,11 @@ body {
   .site-wrapper-inner {
     vertical-align: middle;
   }
-  /* Handle the widths */
+
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+    width: 100%;
   }
   .aboutView {
     padding-top: 100px;
