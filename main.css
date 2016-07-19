@@ -61,6 +61,10 @@ body {
   padding: 5px;
 }
 
+.grid-item-pano {
+  width: 66.666%;
+}
+
 .grid-item {
   float: left;
 }
@@ -131,15 +135,6 @@ body {
   border-bottom-color: #fff;
 }
 
-@media (min-width: 768px) {
-  .masthead-brand {
-    float: left;
-  }
-  .masthead-nav {
-    float: right;
-  }
-}
-
 
 /*
  * Cover
@@ -169,6 +164,12 @@ body {
  */
 
 @media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
   /* Pull out the header and footer */
   .masthead {
     position: fixed;
